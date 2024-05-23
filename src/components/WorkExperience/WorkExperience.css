@@ -1,0 +1,54 @@
+.section {
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: center;
+  }
+  
+  .section h3 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  h4 {
+    font-weight: bold;
+    margin-top: 0;
+  }
+  
+  .company {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 5px;
+  }
+  
+  .years {
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 10px;
+  }
+  
+  li ul {
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+  
+  li ul li {
+    margin-bottom: 10px;
+  }
+  
+  li ul li::before {
+    content: "•";
+    margin-right: 10px;
+    color: #666;
+  }
